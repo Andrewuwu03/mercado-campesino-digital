@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mercado Campesino Digital de Yopal</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Yopal · Casanare</p>
+    <h1>Mercado Campesino Digital</h1>
+    <p>Productos frescos de nuestros productores locales.</p>
+  </header>
+  <main>
+    <section class="notice"><strong>Prototipo académico</strong>
+      <p>Esta pantalla es una maqueta visual. No registra pedidos ni se conecta a una base de datos.</p>
+    </section>
+    <section><h2>Oferta de ejemplo</h2>
+      <div class="product-grid">
+        <article class="product"><span class="emoji">🍅</span><h3>Tomate</h3><p>Unidad: kilogramo</p><p class="price">$4.000 / kg</p></article>
+        <article class="product"><span class="emoji">🥑</span><h3>Aguacate</h3><p>Unidad: kilogramo</p><p class="price">$6.000 / kg</p></article>
+        <article class="product"><span class="emoji">🥚</span><h3>Huevos</h3><p>Unidad: cubeta</p><p class="price">$14.000 / cubeta</p></article>
+      </div>
+    </section>
+    <section class="reservation">
+      <h2>Consultar reserva (demostración)</h2>
+      <label for="product">Producto</label>
+      <select id="product"><option>Tomate</option><option>Aguacate</option><option>Huevos</option></select>
+      <label for="quantity">Cantidad</label><input id="quantity" type="number" min="1" value="1">
+      <button id="reserve">Probar validación</button><p id="message" role="status" aria-live="polite"></p>
+    </section>
+  </main>
+  <footer>Mercado Campesino Digital · Proyecto académico</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>

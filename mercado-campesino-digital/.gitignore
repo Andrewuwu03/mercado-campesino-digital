@@ -1,0 +1,12 @@
+# Sistema y editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+# Compilación Java
+target/
+*.class
+# Secretos y variables de entorno
+.env
+.env.*
+!.env.example
